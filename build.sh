@@ -41,7 +41,7 @@ else
     unzip pterodactyl.zip > /dev/null 2>&1
     check_command "unzip"
 
-    echo "Copying the extracted files to the /var/www/ directory"
+    echo "Copying the extracted files to the /var/www/pterodactyl directory"
     # Copy the extracted files to the necessary location
     cp -r * /var/www/pterodactyl
     check_command "File copy"
