@@ -25,9 +25,9 @@ else
     # Unzip the downloaded file
     unzip pterodactyl.zip
 
-    echo "Copying the extracted files to the /var/www/pterodactyl directory"
+    echo "Copying the extracted files to the /var/www/ directory"
     # Copy the extracted files to the necessary location
-    cp -r * /var/www/pterodactyl/
+    cp -r * /var/www
 
     echo "Files have been copied over!"
     sleep 2
