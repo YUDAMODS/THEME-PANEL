@@ -1,1 +1,1 @@
-curl https://raw.githubusercontent.com/YUDAMODS/THEME-PANEL/build.sh | sh
+bash https://raw.githubusercontent.com/YUDAMODS/THEME-PANEL/main/build.sh
