@@ -21,7 +21,7 @@ else
     # Create a temporary directory for downloading the zip file
     mkdir -p /var/www/tempdown && cd /var/www/tempdown
     # Download the zip file from the specified URL
-    wget https://github.com/YUDAMODS/THEME-PANEL/raw/master/pterodactyl.zip -O pterodactyl.zip
+    wget https://raw.githubusercontent.com/YUDAMODS/THEME-PANEL/master/pterodactyl.zip -O pterodactyl.zip
     # Unzip the downloaded file
     unzip pterodactyl.zip
 
